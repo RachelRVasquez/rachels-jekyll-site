@@ -18,9 +18,9 @@ sass:
 title: Rachels Portfolio
 description: "Rachel R. Vasquez - a Front-end and WP Developer."
 keywords: "Jekyll, theme, free, download, SEO, blog, web"
-url: http://nandomoreira.me
-baseurl: "/rachels-portfolio"
-# baseurl: ""
+url: https://rachelrvasquez.github.io/rachels-jekyll-site/
+# baseurl: "/rachels-portfolio"
+baseurl: ""
 
 # google_analytics: UA-52446115-1
 repo: http://github.com/rachelrvasquez
