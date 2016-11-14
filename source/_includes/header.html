@@ -1,6 +1,10 @@
+<div class="site-content">
 <header class="site-header">
   <div class="container">
-    <h1><a href="{{ "/" | prepend: site.baseurl }}">end2<span>end</span></a></h1>
+    <h1><a href="{{ "/" | prepend: site.baseurl }}">
+      <!-- <img src="{{ site.author.hero | prepend: site.baseurl }}" alt="author hero image" class="dot"> -->
+      Back to home
+    </a></h1>
 
     <button type="button" class="sliding-panel-button">
       <span></span>
@@ -13,8 +17,6 @@
         {% for item in site.navbar %}
           <li><a href="{{ '/' | prepend: site.baseurl }}{{ item.slug }}" title="{{ item.title }}">{{ item.title }}</a></li>
         {% endfor %}
-        <li><a href="{{ site.repo }}/archive/master.zip" title="Download">Download</a></li>
-        <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank"><i class="icon icon-feed"></i></a></li>
       </ul>
     </nav>
   </div>

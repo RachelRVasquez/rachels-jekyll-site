@@ -30,8 +30,9 @@ disqus_site_shortname: "nandothemes"
 # Author settings
 author:
   name      : Rachel R. Vasquez
-  job       : WordPress Developer
+  job       : Web Developer
   bio       : "WordPress superhero, writer, and artist. Currently seeking adventures to embark on, lands to explore, and villains to defeat.* <span>*Aka available for freelance and full time opportunities.</span>"
+  hero      : /images/author-hero.png
   thumb     : /images/author.jpg
   email     : rachelrvasquez@gmail.com
   url       : http://nandomoreira.me

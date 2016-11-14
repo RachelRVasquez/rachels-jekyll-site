@@ -24,16 +24,17 @@ $base-z-index: 0;
 // Colors
 $primary-color: #df751c;
 $white-color: #fff;
-$white-opague: rgba(255, 255, 255, 0.8);
 $black-color: #000;
 $blue-color: #477dca;
+$light-blue-color: #9fcefd;
 $dark-gray-color: #123546;
 $medium-gray-color: #1d546e;
 $light-gray-color: #2b7da4;
+$bg-opague: rgba(45, 45, 45, 0.65);
 
 // Font Colors
-$base-font-color: lighten($dark-gray-color, 25%);
-$action-color: $primary-color;
+$base-font-color: $white-color;
+$action-color: $light-blue-color;
 
 // Border
 $base-border-color: $light-gray-color;
