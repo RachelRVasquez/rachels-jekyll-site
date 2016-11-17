@@ -10,5 +10,6 @@ group :development do
   gem 'pygments.rb', group: [:jekyll_plugins]
   gem 'jekyll-compose', group: [:jekyll_plugins]
   gem 'kramdown', group: [:jekyll_plugins]
-  gem 'json', '~> 2'
+  gem 'json', '~> 1.7'
+  gem 'github-pages', '104', group: :jekyll_plugins
 end

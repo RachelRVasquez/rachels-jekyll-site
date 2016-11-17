@@ -18,7 +18,7 @@ sass:
 title: Rachels Portfolio
 description: "Rachel R. Vasquez - a Front-end and WP Developer."
 keywords: "Jekyll, theme, free, download, SEO, blog, web"
-url: https://rachelrvasquez.github.io/rachels-jekyll-site/
+url: https://rachelrvasquez.github.io/rachels-jekyll-site
 # baseurl: "/rachels-portfolio"
 baseurl: ""
 
@@ -45,11 +45,13 @@ author:
 navbar:
   - slug: about
     title: About
-  # - slug: resume
-  #   title: Resume
+  - slug: resume
+    title: Resume
+  - slug: portfolio
+    title: Portfolio    
   # - slug: skills
   #   title: Skills
-  - slug: blog
-    title: Blog
+  # - slug: blog
+  #  title: Blog
 
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
